@@ -1,5 +1,5 @@
 # BlackBox
-STM32F401CCU6 blackbox project with serial logging.
+STM32F401CCU6 blackbox project with serial logging using HAL API.
 
 
 
