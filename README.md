@@ -48,5 +48,12 @@ This is a project to create a portable, multi-sensor data logger (a "black box")
 | MPU-6050 `SDA` | `PB7` (I2C1_SDA) |
 | UART `TX` for Output | `PA9` |
 
+
+
+
+![WhatsApp Image 2025-09-23 at 00 29 12_ea5d27bb](https://github.com/user-attachments/assets/a4e9d1c1-8e2c-4140-bdc6-8f64e1b993fa)
+)
+
+
 ## Project Status
 Currently in development. The next planned feature is to integrate an SD card module via SPI to log all data to a `.csv` file for persistent storage.
