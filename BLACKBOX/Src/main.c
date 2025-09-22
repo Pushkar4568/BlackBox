@@ -31,6 +31,9 @@ int main(void)
   MX_ADC1_Init();
   MX_I2C1_Init();
   MX_USART1_UART_Init();
+	MPU_6050_INIT(1,2);
+
+	
 
   /*char buff[32];
   char MQ2[]="\r \nThe MQ2/LPG reading in  PPM: ";
@@ -256,4 +259,5 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
 
